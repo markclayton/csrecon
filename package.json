@@ -1,0 +1,30 @@
+{
+  "name": "csrecon",
+  "version": "1.0.0",
+  "description": "Open source tool that uses censys and shodan for passive recon. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markclayton/csrecon.git"
+  },
+  "keywords": [
+    "passive",
+    "recon",
+    "censys",
+    "shodan"
+  ],
+  "author": "Mark Clayton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markclayton/csrecon/issues"
+  },
+  "homepage": "https://github.com/markclayton/csrecon#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "restler": "^3.4.0",
+    "util": "^0.10.3"
+  }
+}
