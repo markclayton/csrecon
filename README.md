@@ -13,7 +13,7 @@ _Censys + Shodan = A Good Time :)_
 - banner grabbing (if possible)
 - Hosting (Rackspace? Amazon?)
 
-It's pretty useful because all of this information can be discovered, in about 2 seconds, by simply providing the target/organization name. 
+It's pretty useful because all of this information can be discovered, in about 15 seconds, by simply providing the target/organization name. 
 
 ### Prerequisites
 It should work on any Linux/Unix/OSX platform with [node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed. 
@@ -26,9 +26,7 @@ Also, you'll beed to **get API keys from both Censys and Shodan.** Include these
     password: "<CENSYS_SECRET>",
     
 /* inside shodan() function */
-    const options = {
-    	key: "<SHODAN_API_KEY>"
-  	};
+    query: {key: "<SHODAN_API_KEY>"}
 ```
 
 ### Usage
