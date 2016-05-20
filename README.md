@@ -18,7 +18,7 @@ It's pretty useful because all of this information can be discovered, in about 1
 ### Prerequisites
 It should work on any Linux/Unix/OSX platform with [node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed. 
 
-Also, you'll beed to **get API keys from both Censys and Shodan.** Include these into the following appropriate fields. 
+Also, you'll need to **get API keys from both Censys and Shodan.** Include these into the following appropriate fields. 
 
 ```
 /* inside censysSearchIpv4() function */
